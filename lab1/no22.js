@@ -8,7 +8,7 @@ const types = {
 for (const val of values) {
     const l = typeof val;
     types[l] += 1;
-}
+};
 
 console.log("Підрахунок з готовими ключами:");
 console.log(types);
@@ -23,5 +23,5 @@ for (const val of values) {
     }
     typess[l] += 1;
 }
-console.log("Підрахунок з динамічними ключами:");
+console.log("з динамічними ключами");
 console.log(typess);
