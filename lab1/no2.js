@@ -10,7 +10,7 @@ for (const val of values) {
     types[l] += 1;
 };
 
-console.log("Підрахунок з готовими ключами:");
+console.log("з готовими ключами");
 console.log(types);
 
 const typess = {};
